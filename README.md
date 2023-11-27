@@ -7,6 +7,7 @@ Register API:
 1. Name
 2. Username
 3. Password
+
 **Expected output on successful registration:**
 User signed up successfully.
 
@@ -15,6 +16,7 @@ Login API:
 **input parameters:**
 1. Username
 2. Password
+
 **Expected output on successful login:**
 "result": {
         "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTYzOTU0ZjhjM2RkNGMwMzVlNmRjMzMiLCJpYXQiOjE3MDEwODc3MjN9.DT78yudLM2BVlMV_2gLMocxA3GU3wqeoZzD3osLL5yI",
@@ -28,7 +30,7 @@ Login API:
 
    Get All tasks API:
    ---------------------
-  ** Expected output:**
+**Expected output:**
    {
             "_id": "65648ada38dbd873caee10c0",
             "title": "water the plant",
@@ -43,7 +45,7 @@ Login API:
 
    Get tasks created in last 7 days:
    -------------------------------------
- **  Expected output:**
+ **Expected output:**
    {
             "_id": "65648ada38dbd873caee10c0",
             "title": "water the plant",
@@ -74,7 +76,7 @@ Login API:
 
    Create task by admin:
    ----------------------
-** Input parameters:**
+**Input parameters:**
    {
    "title":"water the plant", "description":"you need to water the plant", "assignedUser":"6563950a8c3dd4c035e6dc30", "dueDate":"2023-11-26", "completionStatus":"not completed"
 }
@@ -123,6 +125,6 @@ mongodb
 3. You will get the message as "server started" and "DB connected"
 4. You can test the APIs in any tool like postman etc., to run and get the desired output.
 
-Thank you! Happy Coding!!!
+**Thank you! Happy Coding!!!**
 
    
