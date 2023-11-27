@@ -114,10 +114,10 @@ Delete task by admin
 **How to run the application:**
 It is same as how you run any other node.js application. 
 **Prerequisites:**
-Visual studio code or any other similar tool
-postman or any other similar tool
-node js
-mongodb
+1. Visual studio code or any other similar tool
+2. Postman or any other similar tool
+3. Node js
+4. MongoDB
 
 **Steps:**
 1. You can open this in file downloaded in any development tool like visual studio code etc.,
